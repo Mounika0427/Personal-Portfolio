@@ -19,6 +19,7 @@
 
 <main>
 
+<!-- SIDEBAR -->
 <aside class="sidebar" data-sidebar>
 
   <div class="sidebar-info">
@@ -71,15 +72,26 @@
     <div class="separator"></div>
 
     <ul class="social-list">
-      <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
-      <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li class="social-item">
+        <a href="https://github.com/Mounika0427" target="_blank" class="social-link">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/mounikakatnam" target="_blank" class="social-link">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
     </ul>
   </div>
 
 </aside>
 
+<!-- MAIN CONTENT -->
 <div class="main-content">
 
+<!-- NAVBAR -->
 <nav class="navbar">
   <ul class="navbar-list">
     <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
@@ -90,6 +102,7 @@
   </ul>
 </nav>
 
+<!-- ABOUT -->
 <article class="about active" data-page="about">
 <header><h2 class="h2 article-title">About me</h2></header>
 
@@ -105,48 +118,17 @@ Eager to leverage strong analytical and technical skills to solve real-world pro
 
 <section class="service">
 <h3 class="h3 service-title">What I'm doing</h3>
+
 <ul class="service-list">
-
-<li class="service-item">
-<div class="service-content-box">
-<h4 class="h4 service-item-title">Machine Learning Development</h4>
-<p class="service-item-text">
-Building and evaluating supervised and unsupervised ML models for real-world use cases.
-</p>
-</div>
-</li>
-
-<li class="service-item">
-<div class="service-content-box">
-<h4 class="h4 service-item-title">Data Analysis</h4>
-<p class="service-item-text">
-Analyzing complex datasets and extracting insights using Python, SQL, and SHAP analysis.
-</p>
-</div>
-</li>
-
-<li class="service-item">
-<div class="service-content-box">
-<h4 class="h4 service-item-title">AI Research</h4>
-<p class="service-item-text">
-Conducting research, building POCs, and contributing to whitepapers in AI-driven solutions.
-</p>
-</div>
-</li>
-
-<li class="service-item">
-<div class="service-content-box">
-<h4 class="h4 service-item-title">Healthcare Analytics</h4>
-<p class="service-item-text">
-Developing ML models for disease prediction and early diagnosis support systems.
-</p>
-</div>
-</li>
-
+<li class="service-item"><h4 class="h4">Machine Learning Development</h4></li>
+<li class="service-item"><h4 class="h4">AI Research & POC Building</h4></li>
+<li class="service-item"><h4 class="h4">Healthcare Analytics</h4></li>
+<li class="service-item"><h4 class="h4">Data Analysis & Feature Engineering</h4></li>
 </ul>
 </section>
 </article>
 
+<!-- RESUME -->
 <article class="resume" data-page="resume">
 <header><h2 class="h2 article-title">Resume</h2></header>
 
@@ -154,7 +136,7 @@ Developing ML models for disease prediction and early diagnosis support systems.
 <h3 class="h3">Education</h3>
 <ol class="timeline-list">
 <li class="timeline-item">
-<h4 class="h4 timeline-item-title">B.Tech – Computer Science (AI & Data Science)</h4>
+<h4 class="h4">B.Tech – Computer Science (AI & Data Science)</h4>
 <span>The Apollo University</span>
 <p class="timeline-text">CGPA: 9.4</p>
 </li>
@@ -165,56 +147,65 @@ Developing ML models for disease prediction and early diagnosis support systems.
 <h3 class="h3">Experience</h3>
 <ol class="timeline-list">
 <li class="timeline-item">
-<h4 class="h4 timeline-item-title">AI Team / Project Intern – Ciolake Pvt Ltd</h4>
+<h4 class="h4">AI Team / Project Intern – Ciolake Pvt Ltd</h4>
 <span>April 2025 – June 2025</span>
 <p class="timeline-text">
-Worked on advanced AI modeling for the company's product, developed POC and contributed to research whitepapers.
+Worked on AI modeling, research, whitepaper preparation, and proof-of-concept development in a hybrid environment.
 </p>
 </li>
 </ol>
 </section>
-
-<section class="skill">
-<h3 class="h3 skills-title">My skills</h3>
-<ul class="skills-list content-card">
-<li class="skills-item"><h5 class="h5">Python</h5></li>
-<li class="skills-item"><h5 class="h5">C & SQL</h5></li>
-<li class="skills-item"><h5 class="h5">Machine Learning</h5></li>
-<li class="skills-item"><h5 class="h5">SHAP Analysis</h5></li>
-</ul>
-</section>
 </article>
 
+<!-- PORTFOLIO -->
 <article class="portfolio" data-page="portfolio">
 <header><h2 class="h2 article-title">Portfolio</h2></header>
 
 <ul class="project-list">
-
 <li class="project-item active">
 <h3 class="project-title">Diabetic Nephropathy Prediction</h3>
-<p class="project-category">
-ML model achieving 84.75% accuracy using SHAP analysis for healthcare insights.
-</p>
+<p class="project-category">Healthcare ML | SHAP Analysis | 84.75% Accuracy</p>
 </li>
 
 <li class="project-item active">
 <h3 class="project-title">Heart Disease Prediction</h3>
-<p class="project-category">
-Risk prediction using Random Forest, XGBoost, and KNN with feature engineering.
-</p>
+<p class="project-category">Random Forest, XGBoost, KNN | Feature Engineering</p>
+</li>
+</ul>
+</article>
+
+<!-- BLOG -->
+<article class="blog" data-page="blog">
+<header><h2 class="h2 article-title">Blog</h2></header>
+
+<ul class="blog-posts-list">
+
+<li class="blog-post-item">
+<h3 class="h3">Building a Diabetic Nephropathy Prediction Model</h3>
+<p>Exploring ML pipelines, SHAP analysis, and healthcare impact.</p>
+</li>
+
+<li class="blog-post-item">
+<h3 class="h3">Heart Disease Risk Prediction Using ML</h3>
+<p>Comparing classifiers and feature selection techniques.</p>
+</li>
+
+<li class="blog-post-item">
+<h3 class="h3">Explainable AI with SHAP</h3>
+<p>Understanding model decisions for medical applications.</p>
 </li>
 
 </ul>
 </article>
 
-<article class="blog" data-page="blog">
-<header><h2 class="h2 article-title">Blog</h2></header>
-<p style="padding:20px;">Blogs will be updated with AI, ML, and Data Science insights.</p>
-</article>
-
+<!-- CONTACT -->
 <article class="contact" data-page="contact">
 <header><h2 class="h2 article-title">Contact</h2></header>
-<p style="padding:20px;">Feel free to reach out via email or phone for collaborations and opportunities.</p>
+<p style="padding:20px;">
+📧 katnammounika@gmail.com <br>
+📞 +91 7702582889 <br>
+🔗 GitHub & LinkedIn available in sidebar
+</p>
 </article>
 
 </div>
