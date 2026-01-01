@@ -1,24 +1,24 @@
-vCard - Personal Portfolio
+Mounika - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Mounika katnam
+Mounika katnam
+python developer
 
 Show Contacts
 
 Email
-richard@example.com
+katnammounika@gmail.com
 
 Phone
-+1 (213) 352-2795
+7702582889
 
 Birthday
-June 23, 1982
+Aug 27,2003
 
 Location
-Sacramento, California, USA
+kakinada AP
 
 # navbar
 
